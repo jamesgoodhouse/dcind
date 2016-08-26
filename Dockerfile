@@ -1,8 +1,8 @@
 FROM alpine:3.3
 MAINTAINER Yusuke KUOKA <kuoka@chatwork.com>
 
-ENV DOCKER_VERSION=1.11.1 \
-    DOCKER_COMPOSE_VERSION=1.7.1
+ENV DOCKER_VERSION=1.12.0 \
+    DOCKER_COMPOSE_VERSION=1.8.0
 
 # Install Docker, Docker Compose
 RUN apk --update --no-cache \
